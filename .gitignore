@@ -1,0 +1,15 @@
+# Build output
+target/
+
+# IDE / OS files
+.idea/
+*.iml
+.DS_Store
+
+# Python virtual environment (not part of this Java project)
+.venv/
+
+# Generated snapshots and local demo videos
+data/output/*
+data/input/*
+!data/**/.gitkeep
