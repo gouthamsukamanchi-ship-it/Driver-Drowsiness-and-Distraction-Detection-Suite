@@ -1,15 +1,16 @@
-# Build output
+# Exclude all PDF files
+*.pdf
+# Java and Maven build files
 target/
-
-# IDE / OS files
-.idea/
-*.iml
+*.class
+# macOS files
 .DS_Store
-
-# Python virtual environment (not part of this Java project)
-.venv/
-
-# Generated snapshots and local demo videos
-data/output/*
-data/input/*
-!data/**/.gitkeep
+# IDE files
+.idea/
+.vscode/
+# Logs
+*.log
+# Environment secrets
+.env
+.env.*
+!.env.example
